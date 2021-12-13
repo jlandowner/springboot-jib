@@ -21,7 +21,7 @@
 			until a new version of spring-boot-starter-log4j2 is released, 
 			it is possible to work around the vulnerability by specifying the log4j2 version.
 		-->
-    	<log4j2.version>2.15.0</log4j2.version>
+		<log4j2.version>2.15.0</log4j2.version>
 	</properties>
 	<dependencies>
 		<!-- 
@@ -66,9 +66,9 @@
 
 			<!-- using jib to build docker image -->
 			<plugin>
-                <groupId>com.google.cloud.tools</groupId>
-                <artifactId>jib-maven-plugin</artifactId>
-            </plugin>
+				<groupId>com.google.cloud.tools</groupId>
+				<artifactId>jib-maven-plugin</artifactId>
+			</plugin>
 		</plugins>
 	</build>
 
