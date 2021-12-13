@@ -6,6 +6,9 @@ https://spring.io/guides/gs/spring-boot/
 Change Spring logging to log4j2.
 https://docs.spring.io/spring-boot/docs/current/reference/html/howto.html#howto.logging.log4j
 
+Build container using jib
+https://github.com/GoogleContainerTools/jib/tree/master/examples/spring-boot
+
 # Log4j2 working around CVE-2021-44228 (log4shell)
 
 Offcial Spring annoucement for CVE-2021-44228
